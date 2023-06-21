@@ -1,22 +1,22 @@
-#include “main.h”
+#include "main.h"
 
 /**
-*main – prints _putchar,  followed by a new line.
-* Return: 0
+ * main - prints _putchar, followed by a new line.
+ * Return: 0
 **/
 
-Int main(void)
+int main(void)
 {
-  Unsigned int ;
-  Char c[] = “_putchar”;
+	unsigned int i;
+	char c[] = "_putchar";
 
-  For (i=0;I<=7;i++)
-  { 
-    _putchar(c[i]);
-  } 
+	for (i = 0; i <= 7; i++)
+	{
+		_putchar(c[i]);
+	}
 
-   _putchar(‘/n’);
+	_putchar('\n');
 
-   Return (0);
-{
+	return (0);
+}
 
