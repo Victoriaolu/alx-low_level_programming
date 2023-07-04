@@ -1,12 +1,10 @@
 #include "main.h"
-
 /**
- * _strspn- entry point
- * @s: input
- * @accept: input
+ * _strspn - entry point
+ * @s: Input
+ * @accept: Input
  * Return: always 0 (Success)
  */
-
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int n = 0;
@@ -26,6 +24,5 @@ unsigned int _strspn(char *s, char *accept)
 		}
 		s++;
 	}
-	return (n)
+	return (n);
 }
-
